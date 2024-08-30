@@ -9,7 +9,7 @@ df['Deepfake'] = 0
 # Save the updated DataFrame back to a CSV file
 df.to_csv('real_faces_csv_10_addedColumn.csv', index=False)
 
-import pandas as pd
+# import pandas as pd
 
 # Load the first CSV file into a DataFrame
 df1 = pd.read_csv(r'D:\FaceForensicsLow\FaceForensicsDeepfake\real_faces_csv_1_addedColumn.csv')
